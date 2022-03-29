@@ -1,5 +1,5 @@
-# By < ANKIT KUMAR >
-# // NoUB SPAMMERBOT MADE BY ©LEGEND-ANKIT™ //
+# By < ₳ⱠØ₦Ɇ >
+# // SPAMMERBOT MADE BY ₳ⱠØ₦Ɇ //
 
 from telethon import TelegramClient, events
 from decouple import config
@@ -22,7 +22,7 @@ BOT_TOKEN = config("BOT_TOKEN", default=None)
 LOGGER_GROUP = int(os.environ.get("LOGGER_GROUP", None))
 BOT_USER = os.environ.get("BOT_USER")
 BOT_USERS = str(BOT_USER).split(" ", maxsplit=len(BOT_USER))
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "©ANKIT™")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "₳ⱠØ₦Ɇ")
 
 
 worker = TelegramClient('worker', APP_ID, API_HASH).start(bot_token=BOT_TOKEN) 
