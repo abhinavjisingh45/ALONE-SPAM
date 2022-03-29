@@ -10,7 +10,7 @@ from .. import worker
 async def report(event):
     if event.fwd_from:
         return
-    mentions = "RePorted to Lawde @admin"
+    mentions = "RePorted to @admin"
     chat = await event.get_input_chat()
     async for x in worker.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f"[\u2063](tg://user?id={x.id})"
