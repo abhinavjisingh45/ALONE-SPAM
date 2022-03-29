@@ -37,8 +37,8 @@
             "value": "https://te.legra.ph/file/51c201bcedd1c792d0e78.jpg"
         },
         "BOT_USER": {
-            "description": "ADD Telegram id as integer of bot controller.",
-            "value": "5035281405 2127221861"
+            "description": "ADD Telegram id as integer of bot controller (your telegram id).",
+            "value": "2087347266"
         }
     },
     "buildpacks": [
