@@ -1,5 +1,5 @@
-# By < ANKIT KUMAR >
-# // NOUB SPAMMERBOT MADE BY ©LEGEND-ANKIT™ //
+# By < ₳ⱠØ₦Ɇ >
+# // SPAMMERBOT MADE BY ₳ⱠØ₦Ɇ //
 
 from .. import worker
 from telethon import events, Button
@@ -8,7 +8,7 @@ from telethon import events, Button
 async def start(event):
     await event.reply("ѕοмє ιиƒο αϐουτ οωиєя.",
                     buttons=[
-                        [Button.url("οωиєя", url="https://github.com/LEGEND-ANKIT")],
+                        [Button.url("οωиєя", url="https://t.me/you_ree_hacked")],
                         [Button.inline("Cнєϲκ мє",data="noub")]
                     ])
 
@@ -16,7 +16,7 @@ async def start(event):
 async def ex(event):
     await event.edit("υѕє τнιѕ ρℓєαѕє /help",
                     buttons=[
-                        [Button.url("οωиєя", url="https://github.com/LEGEND-ANKIT")]
+                        [Button.url("οωиєя", url="https://t.me/you_ree_hacked")]
                     ])
 
 
