@@ -12,7 +12,7 @@ ALIVE_NAME = str(ALIVE_NAME) if ALIVE_NAME else "₳ⱠØ₦Ɇ"
 @worker.on(events.NewMessage(incoming=True, pattern="/help"))
 async def start(event):
     tatti=f"Sᴘᴀᴍᴍᴇʀ Bᴏᴛ Fᴏʀ {ALIVE_NAME} \nMᴀᴅᴇ Bʏ @you_ree_hacked"
-    await event.reply(₳ⱠØ₦Ɇ,
+    await event.reply(ALONE,
                     buttons=[
                         [Button.inline("cհҽϲκ мє",data="helpme")]
                     ])
