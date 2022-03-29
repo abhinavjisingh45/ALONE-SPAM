@@ -1,16 +1,14 @@
-<h2 align="center"> <a href="https://github.com/LEGEND-ANKIT/NoUB">🔰[ #NoUB ]🔰</a></h2>
+<h2 align="center"> <a href="https://github.com/improking/Alone_Music">🔰₳ⱠØ₦Ɇ SPAM BOT🔰</a></h2>
 
 
-[![LEGEND-ANKIT LOGO](https://telegra.ph/file/b002d63974bd05ea7a336.jpg)](https://github.com/LEGEND-ANKIT/NoUB)
-
-
-<details>
-  <summary> • ⚡INSTALLING⚡ • </summary>
-  <a href="https://heroku.com/deploy?template=https://github.com/LEGEND-ANKIT/NoUB"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
-  
+ <h1> • ⚡INSTALLING⚡ • </h1>
+  <a href="https://heroku.com/deploy?template=https://github.com/improking/ALONE-SPAM"><img src="https://te.legra.ph/file/9ee73043c321314dcfbd1.jpg"></a>
+  <h1><b><i> Click on image to deploy 👆 </i></b></h1>
 </details>
 
-<details>
   <summary> • ✅OFFICIAL SUPPORTS✅ • </summary>
-<a href="https://github.com/LEGEND-ANKIT"><img src="https://img.shields.io/badge/FOLLOW%20ME%20ON-GITHUB-black.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/improking/ALONE-SPAM"></a>
+ contact me 👇
+<h3>₳ⱠØ₦Ɇ (@you_ree_hacked) </h3>
 </details>
+
