@@ -36,7 +36,7 @@ def get_readable_time(seconds: int) -> str:
 @worker.on(events.NewMessage(incoming=True, pattern="^/ping"))
 async def ping(e):
  if not str(e.sender_id) in BOT_USERS:
-    return await e.reply("kid you are not my owner (sed)")
+    return await e.reply("you are not my owner (sed)")
  else:
     start = datetime.now()
     end = datetime.now()
