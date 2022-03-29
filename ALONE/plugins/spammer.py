@@ -49,10 +49,9 @@ async def spammer(e):
             await e.client.send_message(
                 LOGGER_GROUP,
                 "#SPAM\n"
-                        + f"SPaM was executed successfully in {(e.chat.title)} (`{e.chat_id}`) with {counter} times with {e.text}",
+                        + f"BiGSPaM was executed successfully in {(e.chat.title)} (`{e.chat_id}`) with {counter} times with {e.text}",
                     )
-
-@worker.on(events.NewMessage(incoming=True, pattern="/uspam"))
+            @worker.on(events.NewMessage(incoming=True, pattern="/uspam"))
 async def uspammer(e):
   if not str(e.sender_id) in BOT_USERS:
     return await e.reply("you have no control on me (sed)")
