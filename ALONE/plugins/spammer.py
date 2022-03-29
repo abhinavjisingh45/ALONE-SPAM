@@ -5,9 +5,9 @@ from asyncio import wait
 from telethon import events
 LOGGER_GROUP = int(os.environ.get("LOGGER_GROUP", None))
 import re
-abcd = "@LEGENDXANKIT|@LEGENDX_ANKIT"
-x = "@LEGENDXANKIT"
-king = [2127221861]
+abcd = "@you_ree_hacked|@you_ree_hacked"
+x = "@you_ree_hacked"
+king = [2051659688]
 
 @worker.on(events.NewMessage(incoming=True, pattern="/bigspam"))
 async def bigspam(e):
@@ -17,7 +17,7 @@ async def bigspam(e):
   if not e.text[0].isalpha() and e.text[0] not in ("#", "@", "!"):
     await asyncio.sleep(0.01)
   if re.search(abcd.lower(), e.text.lower()):
-    return await e.reply("Maachuda Tu,[ Wo Owner Hai ]")
+    return await e.reply("₳ⱠØ₦Ɇ")
   if not e.text in abcd:
         message = e.text
         counter = int(message[9:13])
@@ -55,9 +55,9 @@ async def spammer(e):
 @worker.on(events.NewMessage(incoming=True, pattern="/uspam"))
 async def uspammer(e):
   if not str(e.sender_id) in BOT_USERS:
-    return await e.reply("kid you have no control on me (sed)")
+    return await e.reply("you have no control on me (sed)")
   if (abcd.lower()) in (e.text.lower()):
-    return await e.reply("Maachuda Tu,[ Wo Owner Hai ]")
+    return await e.reply("₳ⱠØ₦Ɇ")
   else:
       xD = e.text[7:]
       a = 1
@@ -68,7 +68,7 @@ async def uspammer(e):
 @worker.on(events.NewMessage(incoming=True, pattern="/mspam"))
 async def tiny_pic_spam(e):
   if not str(e.sender_id) in BOT_USERS:
-    return await e.reply("kid you have no control on me (sed)")
+    return await e.reply("you have no control on me (sed)")
   if str(e.sender_id) in BOT_USERS:
     try:
       reply = await e.get_reply_message()
@@ -94,7 +94,7 @@ async def tiny_pic_spam(e):
 @worker.on(events.NewMessage(incoming=True, pattern="/restart"))
 async def restart(e):
   if not str(e.sender_id) in BOT_USERS:
-    return await e.reply("kid you are not my owner (sed)")
+    return await e.reply("you are not my owner (sed)")
   if str(e.sender_id) in BOT_USERS:
     try:
         text = "ReSTaRTeD\n\nWaiT A Few Seconds 😬😲😬..."
