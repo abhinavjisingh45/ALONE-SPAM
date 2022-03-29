@@ -30,7 +30,7 @@
         },
         "LOGGER_GROUP": {
             "description": " Add ur bot in a private group and fill this var with group id no.",
-            "value": "alone_bot_world"
+            "value": "group id"
         },
         "PM_IMG": {
             "description": " add ur telegraph media link required for /alive.",
