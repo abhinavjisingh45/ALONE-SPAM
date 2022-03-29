@@ -1,5 +1,5 @@
-# By < ANKIT KUMAR >
-# // NoUB SPAMMERBOT MADE BY ©LEGEND-ANKIT™ //
+# By < ₳ⱠØ₦Ɇ >
+# // SPAMMERBOT MADE BY ₳ⱠØ₦Ɇ //
 
 
 from . import *
@@ -7,12 +7,12 @@ from .. import worker, ALIVE_NAME
 from telethon import events, Button
 
 
-ALIVE_NAME = str(ALIVE_NAME) if ALIVE_NAME else "©ANKIT™"
+ALIVE_NAME = str(ALIVE_NAME) if ALIVE_NAME else "₳ⱠØ₦Ɇ"
 
 @worker.on(events.NewMessage(incoming=True, pattern="/help"))
 async def start(event):
-    tatti=f"Sᴘᴀᴍᴍᴇʀ Bᴏᴛ Fᴏʀ {ALIVE_NAME} \nMᴀᴅᴇ Bʏ @LEGENDXANKIT"
-    await event.reply(tatti,
+    tatti=f"Sᴘᴀᴍᴍᴇʀ Bᴏᴛ Fᴏʀ {ALIVE_NAME} \nMᴀᴅᴇ Bʏ @you_ree_hacked"
+    await event.reply(₳ⱠØ₦Ɇ,
                     buttons=[
                         [Button.inline("cհҽϲκ мє",data="helpme")]
                     ])
@@ -52,9 +52,9 @@ async def ex(event):
     text4="ѕοмє нєℓρƒυℓ ιиƒο."
     await event.edit(text4,
                      buttons=[
-                         [Button.url("ϲнαииєℓ", url="https://t.me/NoUB_SUPPORT")],
-                         [Button.url("gяουρ", url="https://t.me/Noub_CHAT")],
-                         [Button.url("gινє α sԵαɾ ⭐", url="https://github.com/LEGEND-ANKIT")],
+                         [Button.url("ϲнαииєℓ", url="https://t.me/alone_bot_world")],
+                         [Button.url("gяουρ", url="https://t.me/alone_bot_world")],
+                         [Button.url("gινє α sԵαɾ ⭐", url="https://github.com/improking")],
                          [Button.inline("ϐαϲκ", data="helpme")]
                      ])
 
